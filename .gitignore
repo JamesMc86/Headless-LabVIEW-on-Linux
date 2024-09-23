@@ -10,8 +10,17 @@
 
 # Executables
 *.exe
+builds/
 
 # Metadata
 *.aliases
 *.lvlps
 .cache/
+
+# C Build artifacts
+c/SharedLib.so
+c/SharedLib.h
+c/lv_wrapped
+
+# Swap Files
+*.swp
